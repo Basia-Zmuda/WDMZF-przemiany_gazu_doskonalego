@@ -12,7 +12,13 @@ a.	Cel projektu:\
 Celem projektu jest badanie zależności między pomiędzy poszczególnymi elementami równania Clapeyrona oraz przedstawienia ich zależności na wykresach. Badane będą trzy przemiany: izotermiczna, izochoryczna oraz izobaryczna.\
 b.	Opis modelowanego zjawiska fizycznego
 
-c.	Opis wykorzystywanych narzędzi – python 3.12
+c.	Opis wykorzystywanych narzędzi:
+- język programowania: *Python >= 3.8.2*
+- repozytorium: *Github*
+- edytor kodu: *PyCharm*
+- biblioteka do obliczeń numerycznych i pracy z danymi: *NumPy*
+- biblioteka do prezentacji wyników: *Matplotlib*
+
 ### 2.	Ogólny opis projektu i możliwe alternatywy
 #### Wersja podstawowa:
 1.	Program prosi użytkownika o wybranie jednej z trzech przemian.
