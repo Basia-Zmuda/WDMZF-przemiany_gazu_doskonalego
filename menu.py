@@ -7,8 +7,13 @@ def show_menu():
     print("2. Izobaryczna")
     print("3. Izochoryczna")
 
-    # Pobranie wyboru użytkownika
-    choice = input("Podaj numer przemiany (1/2/3): ")
+    pytaj_o_liczbe = True
+    while(pytaj_o_liczbe):
+        # Pobranie wyboru użytkownika
+        choice = input("Podaj numer przemiany (1/2/3): ")
+        if choice == '1' or choice == '2' or choice == '3':
+            pytaj_o_liczbe = False
+
 
     if choice == "1":
         title = "Przemiana Izotermiczna"
